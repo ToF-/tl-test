@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>testing library test</title>
+</head>
+<body>
+                    Hello, testing
+                    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+            <script type="text/babel" data-type="module">
+                import {create_button} from "src/create-button.js";
+                let button = create_button();
+                                let body = document.getElementsByTagName("body");
+                                body[0].appendChild(button);
+            </script>
+</body>
+</html>
